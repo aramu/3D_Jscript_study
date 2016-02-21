@@ -2,12 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Canvas Game</title>
-	<script src="game.js"></script>
+	<title>Sketchpad</title>
 </head>
-<body onload="myStage()">
-	<canvas id="myCanvas" width="810" height="500" style="border: 1px dotted blue;">
-		<p>Su navegador no soporta canvas :( </p>
+<script src="sketchpad.js"></script>
+<script src="myStage.js"></script>
+<style>
+canvas{
+	border: 1px dotted blue;
+}
+</style>
+<body>
+	<canvas id="myCanvas" width="776" height="480">
+		<p>Your browser does not support the canvas element.</p>
 	</canvas>
 </body>
 </html>
